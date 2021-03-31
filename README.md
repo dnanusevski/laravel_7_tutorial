@@ -1,6 +1,7 @@
 ** Here we will learn about LARAVEL 7
 * before installing you need to have compozer ready
 
+
 run command in cmd
 
 	:composer create-project laravel/laravel:^7.0 larabit
