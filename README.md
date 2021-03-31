@@ -1,4 +1,3 @@
-** Here we will learn about react
 * before installing you need to have compozer ready
 
 run command in cmd
