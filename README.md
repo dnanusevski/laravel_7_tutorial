@@ -1,4 +1,4 @@
-* before installing you need to have compozer ready
+* before installing you need to have composer ready
 
 run command in cmd
 
