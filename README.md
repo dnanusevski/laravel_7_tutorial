@@ -1,5 +1,5 @@
 ** Here we will learn about LARAVEL 7
-* before installing you need to have compozer ready
+* before installing you need to have composer ready
 
 
 run command in cmd
