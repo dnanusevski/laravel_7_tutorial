@@ -29,5 +29,12 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+	
+	
+	'personalData' => [
+		'secretData' => 'MyOwnPass',
+		// this is the right way to use env variables
+		'myENV' => env('MY_OWN_DISTINCT_VAR'),
+	],
 
 ];

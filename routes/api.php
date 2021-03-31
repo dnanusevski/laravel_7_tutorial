@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -14,6 +15,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+//namepsce api since all the controllers are inside Api folder in cotrnollers ok
+Route::namespace('Api')->group( function (){
+	Route::get('orders', 'OrderApiController@index');
+	Route::get('writers', 'WriterController@apiList');
+	Route::get('secure', 'OrderApiController@secureData')->middleware('auth:api');
+});
+
