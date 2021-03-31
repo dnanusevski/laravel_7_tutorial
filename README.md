@@ -1,4 +1,4 @@
-** Here we will learn about react
+** Here we will learn about LARAVEL 7
 * before installing you need to have compozer ready
 
 run command in cmd
